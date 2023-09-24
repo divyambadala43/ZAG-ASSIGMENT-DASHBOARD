@@ -1,9 +1,11 @@
 import AllCustomers from "./components/AllCustomers";
 import Header from "./components/Header";
+import PaginatedTable from "./components/PaginatedTable";
 import Sidebar from "./components/Sidebar";
 import StatsOverview from "./components/StatsOverview";
 import Table from "./components/Table";
 import styles from "./styles/App.module.css";
+import data from "./data.json"
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
           <AllCustomers />
           <StatsOverview />
         </div>
-        <Table />
+        <PaginatedTable data={data} />
       </div>
     </div>
   );

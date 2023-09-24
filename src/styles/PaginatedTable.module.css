@@ -8,59 +8,11 @@
   border-radius: 30.65px;
 }
 
-.table {
-  text-align: left;
-}
-
-.table table {
-  margin: 0 auto;
-}
-
-.dividor {
-  background: #eff0f6;
-  height: 1px;
-  width: 100%;
-}
-
-.columnHeading {
-  color: #b5b7c0;
-  font-size: 14.304px;
-  font-weight: 500;
-  letter-spacing: -0.143px;
-}
-
-.heading {
-  color: #16c098;
-  font-size: 14.304px;
-  font-weight: 400;
-  letter-spacing: -0.143px;
-  margin-bottom: 10px;
-  margin-left: 175px;
-}
-
-.searchSortContainer {
+.searchAndSortContainer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-top: 18px;
-}
-
-.sortDropdown {
-  width: 158.773px;
-  height: 35px;
-  display: flex;
-}
-
-.sortDropdown select {
-  border-radius: 10.217px;
-  background: #f9fbff;
-}
-
-.option {
-  color: #3d3c42;
-  font-size: 12.26px;
-  font-weight: 600;
-  letter-spacing: -0.123px;
 }
 
 .searchInput {
@@ -82,25 +34,61 @@
   font-size: 13px;
 }
 
-th,
-td {
-  padding: 15px;
+.sortDropdown {
+  width: 158.773px;
+  height: 35px;
+  display: flex;
 }
 
-tbody {
-  color: #292d32;
-  font-size: 14.304px;
-  font-weight: 500;
-  letter-spacing: -0.143px;
+.sortDropdown select {
+  border-radius: 10.217px;
+  background: #f9fbff;
 }
-
 .pagination {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
+.paginationContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.activePageButton {
+  display: inline-flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4.087px;
+  border: 1.022px solid #5932ea;
+  background: #5932ea;
+  color: #fff;
+  font-size: 12.26px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.123px;
+  margin-right: 5px;
+}
+
+.pageButton {
+  display: inline-flex;
+  padding: 6.13px 9.195px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4.087px;
+  border: 1.022px solid #eff0f6;
+  background: #f5f5f5;
+  color: #404b52;
+  font-size: 12.26px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.123px;
+  margin-right: 5px;
+}
 .active {
   display: flex;
   width: 82.479px;

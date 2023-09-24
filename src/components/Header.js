@@ -3,7 +3,7 @@ import styles from "../styles/Header.module.css";
 
 const Header = () => {
   return (
-    <>
+    <div>
       <div className={styles.headerContainer}>
         <div className={styles.heading}>Orders</div>
         <div className={styles.orderButton}>
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
       <hr className={styles.divider} />
-    </>
+    </div>
   );
 };
 

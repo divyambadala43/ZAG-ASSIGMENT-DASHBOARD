@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  background: #f9f9f9;
 }
 .chartContainer {
   display: flex;
@@ -10,7 +11,7 @@
 .rightContainer {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  margin: 0 auto;
   justify-content: space-evenly;
   background: #f9f9f9;
 }
