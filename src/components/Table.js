@@ -15,7 +15,7 @@ const Table = () => {
     );
   });
   return (
-    <div>
+    <div style={{ display: "flex", justifyContent: "center" }}>
       <table>
         <thead>
           <tr>
