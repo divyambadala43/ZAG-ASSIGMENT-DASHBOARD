@@ -1,4 +1,4 @@
-.tableConatiner {
+.tableContainer {
   width: 998px;
   height: 300px;
   background: #fff;
@@ -17,4 +17,47 @@
   font-size: 14.304px;
   font-weight: 500;
   letter-spacing: -0.143px;
+}
+
+.searchSortConatiner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.sortDropdown {
+  width: 158.773px;
+  height: 35px;
+  display: flex;
+}
+
+.sortDropdown select {
+  border-radius: 10.217px;
+  background: #f9fbff;
+}
+
+.option {
+  color: #3d3c42;
+  font-size: 12.26px;
+  font-weight: 600;
+  letter-spacing: -0.123px;
+}
+
+.searchInput {
+  width: 222.694px;
+  height: 38.824px;
+  border-radius: 10.217px;
+  background: #f9fbff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.searchInput input {
+  border: none;
+  background: none;
+  outline: none;
+  text-align: left;
+  font-size: 13px;
 }

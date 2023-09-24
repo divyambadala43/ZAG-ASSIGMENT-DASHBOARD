@@ -5,7 +5,7 @@ import Sort from "./Sort";
 import Search from "./Search";
 
 const Table = () => {
-  const [sortOption, setSortOption] = useState("customerName");
+  const [sortOption, setSortOption] = useState("");
   const [tableData, setTableData] = useState(data);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -49,8 +49,13 @@ const Table = () => {
 
   return (
     <div className={styles.tableContainer}>
-      <Sort sortOption={sortOption} handleSortChange={handleSortChange} />
-      <Search searchTerm={searchTerm} handleSearchChange={handleSearchChange} />
+      <div className={styles.searchSortConatiner}>
+        <Search
+          searchTerm={searchTerm}
+          handleSearchChange={handleSearchChange}
+        />
+        <Sort sortOption={sortOption} handleSortChange={handleSortChange} />
+      </div>
       <table>
         <thead>
           <tr>
