@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import data from "../data.json";
 import styles from "../styles/Table.module.css";
 import Sort from "./Sort";
+import Search from "./Search";
 
 const Table = () => {
   const [sortOption, setSortOption] = useState("customerName");
   const [tableData, setTableData] = useState(data);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleSortChange = (event) => {
     const newSortOption = event.target.value;
@@ -18,6 +20,20 @@ const Table = () => {
     });
 
     setTableData(sortedData);
+  };
+
+  const handleSearchChange = (event) => {
+    const searchTerm = event.target.value;
+    setSearchTerm(searchTerm);
+
+    // Filter the data based on the search term
+    const filteredData = data.filter((info) => {
+      const searchString =
+        `${info.customerName} ${info.company} ${info.phoneNumber} ${info.email} ${info.country} ${info.status}`.toLowerCase();
+      return searchString.includes(searchTerm.toLowerCase());
+    });
+
+    setTableData(filteredData);
   };
 
   const tableRows = tableData.map((info) => (
@@ -34,6 +50,7 @@ const Table = () => {
   return (
     <div className={styles.tableContainer}>
       <Sort sortOption={sortOption} handleSortChange={handleSortChange} />
+      <Search searchTerm={searchTerm} handleSearchChange={handleSearchChange} />
       <table>
         <thead>
           <tr>
