@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Current Customers",
+    "percentage": 60,
+    "color": "#5F27CD"
+  },
+  {
+    "label": "New Customers",
+    "percentage": 15,
+    "color": "#16C098"
+  },
+  {
+    "label": "Target Customers",
+    "percentage": 45,
+    "color": "#FF6B6B"
+  },
+  {
+    "label": "Retarget Customers",
+    "percentage": 30,
+    "color": "#FFC5C5"
+  }
+]

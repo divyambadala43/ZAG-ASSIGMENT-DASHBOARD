@@ -1,0 +1,37 @@
+.allCustomersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 603px;
+  height: 242px;
+  border-radius: 30.65px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+  box-shadow: 0px 10.22px 61.3px 0px rgba(226, 236, 249, 0.5);
+  margin-right: 10px;
+}
+
+.heading {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  margin-left: 15px;
+}
+
+.chartsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chart {
+  width: 120px;
+  height: 109px;
+}
+
+.chartTitle {
+  margin-top: 10px;
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: 600;
+}

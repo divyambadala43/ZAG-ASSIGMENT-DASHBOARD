@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import AllCustomers from "./components/AllCustomers";
+import Header from "./components/Header";
+import PaginatedTable from "./components/PaginatedTable";
+import Sidebar from "./components/Sidebar";
+import StatsOverview from "./components/StatsOverview";
+import styles from "./styles/App.module.css";
+import data from "./data.json"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+      <Sidebar />
+      <div className={styles.rightContainer}>
+        <Header />
+        <div className={styles.chartContainer}>
+          <AllCustomers />
+          <StatsOverview />
+        </div>
+        <PaginatedTable data={data} />
+      </div>
     </div>
   );
 }

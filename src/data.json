@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "customerName": "Jane Cooper",
+    "company": "Microsoft",
+    "phoneNumber": "(225) 555-0118",
+    "email": "jane@microsoft.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "customerName": "John Doe",
+    "company": "Apple Inc.",
+    "phoneNumber": "(408) 555-1234",
+    "email": "john@apple.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 3,
+    "customerName": "Alice Johnson",
+    "company": "Google LLC",
+    "phoneNumber": "(650) 555-5678",
+    "email": "alice@google.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 4,
+    "customerName": "Bob Smith",
+    "company": "Amazon.com, Inc.",
+    "phoneNumber": "(206) 555-9876",
+    "email": "bob@amazon.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 5,
+    "customerName": "Ella Davis",
+    "company": "Facebook, Inc.",
+    "phoneNumber": "(650) 555-4321",
+    "email": "ella@facebook.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 6,
+    "customerName": "William Johnson",
+    "company": "Tesla, Inc.",
+    "phoneNumber": "(408) 555-8765",
+    "email": "william@tesla.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 7,
+    "customerName": "Grace Lee",
+    "company": "Netflix, Inc.",
+    "phoneNumber": "(408) 555-9876",
+    "email": "grace@netflix.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 8,
+    "customerName": "Henry Wilson",
+    "company": "SpaceX",
+    "phoneNumber": "(310) 555-7890",
+    "email": "henry@spacex.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 9,
+    "customerName": "Olivia Brown",
+    "company": "IBM",
+    "phoneNumber": "(123) 555-4567",
+    "email": "olivia@ibm.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 10,
+    "customerName": "Liam Taylor",
+    "company": "Intel Corporation",
+    "phoneNumber": "(456) 555-7890",
+    "email": "liam@intel.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 11,
+    "customerName": "Sophia White",
+    "company": "Oracle",
+    "phoneNumber": "(789) 555-1234",
+    "email": "sophia@oracle.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 12,
+    "customerName": "Mason Harris",
+    "company": "Dell Technologies",
+    "phoneNumber": "(987) 555-5678",
+    "email": "mason@dell.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 13,
+    "customerName": "Emma Martinez",
+    "company": "HP Inc.",
+    "phoneNumber": "(345) 555-4321",
+    "email": "emma@hp.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 14,
+    "customerName": "Liam Clark",
+    "company": "General Electric",
+    "phoneNumber": "(678) 555-8765",
+    "email": "liam@ge.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 15,
+    "customerName": "Olivia Baker",
+    "company": "Verizon Communications",
+    "phoneNumber": "(890) 555-9876",
+    "email": "olivia@verizon.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 16,
+    "customerName": "James Mitchell",
+    "company": "AT&T Inc.",
+    "phoneNumber": "(234) 555-2345",
+    "email": "james@att.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 17,
+    "customerName": "Sophia Scott",
+    "company": "Cisco Systems",
+    "phoneNumber": "(567) 555-6789",
+    "email": "sophia@cisco.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 18,
+    "customerName": "Mason Adams",
+    "company": "The Boeing Company",
+    "phoneNumber": "(456) 555-1234",
+    "email": "mason@boeing.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 19,
+    "customerName": "Emma Turner",
+    "company": "Oracle",
+    "phoneNumber": "(123) 555-5678",
+    "email": "emma@oracle.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 20,
+    "customerName": "James Baker",
+    "company": "The Walt Disney Company",
+    "phoneNumber": "(678) 555-4321",
+    "email": "james@disney.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 21,
+    "customerName": "Olivia Foster",
+    "company": "The Coca-Cola Company",
+    "phoneNumber": "(890) 555-8765",
+    "email": "olivia@cocacola.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 22,
+    "customerName": "Liam Allen",
+    "company": "PepsiCo, Inc.",
+    "phoneNumber": "(234) 555-9876",
+    "email": "liam@pepsico.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 23,
+    "customerName": "Emma Turner",
+    "company": "Oracle",
+    "phoneNumber": "(123) 555-5678",
+    "email": "emma@oracle.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 24,
+    "customerName": "James Baker",
+    "company": "The Walt Disney Company",
+    "phoneNumber": "(678) 555-4321",
+    "email": "james@disney.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 25,
+    "customerName": "Olivia Foster",
+    "company": "The Coca-Cola Company",
+    "phoneNumber": "(890) 555-8765",
+    "email": "olivia@cocacola.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 26,
+    "customerName": "Liam Allen",
+    "company": "PepsiCo, Inc.",
+    "phoneNumber": "(234) 555-9876",
+    "email": "liam@pepsico.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 27,
+    "customerName": "Emma Turner",
+    "company": "Oracle",
+    "phoneNumber": "(123) 555-5678",
+    "email": "emma@oracle.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 28,
+    "customerName": "James Baker",
+    "company": "The Walt Disney Company",
+    "phoneNumber": "(678) 555-4321",
+    "email": "james@disney.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 29,
+    "customerName": "Olivia Foster",
+    "company": "The Coca-Cola Company",
+    "phoneNumber": "(890) 555-8765",
+    "email": "olivia@cocacola.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 30,
+    "customerName": "Liam Allen",
+    "company": "PepsiCo, Inc.",
+    "phoneNumber": "(234) 555-9876",
+    "email": "liam@pepsico.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 31,
+    "customerName": "Emma Turner",
+    "company": "Oracle",
+    "phoneNumber": "(123) 555-5678",
+    "email": "emma@oracle.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 32,
+    "customerName": "James Baker",
+    "company": "The Walt Disney Company",
+    "phoneNumber": "(678) 555-4321",
+    "email": "james@disney.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 33,
+    "customerName": "Olivia Foster",
+    "company": "The Coca-Cola Company",
+    "phoneNumber": "(890) 555-8765",
+    "email": "olivia@cocacola.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 34,
+    "customerName": "Liam Allen",
+    "company": "PepsiCo, Inc.",
+    "phoneNumber": "(234) 555-9876",
+    "email": "liam@pepsico.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 35,
+    "customerName": "Emma Turner",
+    "company": "Oracle",
+    "phoneNumber": "(123) 555-5678",
+    "email": "emma@oracle.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 36,
+    "customerName": "James Baker",
+    "company": "The Walt Disney Company",
+    "phoneNumber": "(678) 555-4321",
+    "email": "james@disney.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 37,
+    "customerName": "Olivia Foster",
+    "company": "The Coca-Cola Company",
+    "phoneNumber": "(890) 555-8765",
+    "email": "olivia@cocacola.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 38,
+    "customerName": "Liam Allen",
+    "company": "PepsiCo, Inc.",
+    "phoneNumber": "(234) 555-9876",
+    "email": "liam@pepsico.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 39,
+    "customerName": "Emma Turner",
+    "company": "Oracle",
+    "phoneNumber": "(123) 555-5678",
+    "email": "emma@oracle.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 40,
+    "customerName": "James Baker",
+    "company": "The Walt Disney Company",
+    "phoneNumber": "(678) 555-4321",
+    "email": "james@disney.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 41,
+    "customerName": "Olivia Foster",
+    "company": "The Coca-Cola Company",
+    "phoneNumber": "(890) 555-8765",
+    "email": "olivia@cocacola.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 42,
+    "customerName": "Liam Allen",
+    "company": "PepsiCo, Inc.",
+    "phoneNumber": "(234) 555-9876",
+    "email": "liam@pepsico.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 43,
+    "customerName": "Emma Turner",
+    "company": "Oracle",
+    "phoneNumber": "(123) 555-5678",
+    "email": "emma@oracle.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 44,
+    "customerName": "James Baker",
+    "company": "The Walt Disney Company",
+    "phoneNumber": "(678) 555-4321",
+    "email": "james@disney.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 45,
+    "customerName": "Olivia Foster",
+    "company": "The Coca-Cola Company",
+    "phoneNumber": "(890) 555-8765",
+    "email": "olivia@cocacola.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 46,
+    "customerName": "Liam Allen",
+    "company": "PepsiCo, Inc.",
+    "phoneNumber": "(234) 555-9876",
+    "email": "liam@pepsico.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 47,
+    "customerName": "Emma Turner",
+    "company": "Oracle",
+    "phoneNumber": "(123) 555-5678",
+    "email": "emma@oracle.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 48,
+    "customerName": "James Baker",
+    "company": "The Walt Disney Company",
+    "phoneNumber": "(678) 555-4321",
+    "email": "james@disney.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 49,
+    "customerName": "Olivia Foster",
+    "company": "The Coca-Cola Company",
+    "phoneNumber": "(890) 555-8765",
+    "email": "olivia@cocacola.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 50,
+    "customerName": "Liam Allen",
+    "company": "PepsiCo, Inc.",
+    "phoneNumber": "(234) 555-9876",
+    "email": "liam@pepsico.com",
+    "country": "United States",
+    "status": "Inactive"
+  }
+]
