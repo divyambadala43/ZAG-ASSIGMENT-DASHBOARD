@@ -27,3 +27,10 @@
   margin-left: 5px;
   color: #fff;
 }
+
+.divider {
+  width: 95%;
+  background-color: #000000;
+  opacity: 0.1;
+  height: 1px;
+}
