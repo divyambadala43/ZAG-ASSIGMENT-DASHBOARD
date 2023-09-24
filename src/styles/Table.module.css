@@ -4,6 +4,7 @@
     0px 10.216941833496094px 61.30165100097656px rgba(226, 236, 249, 0.5)
   );
   margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .table {
@@ -83,4 +84,11 @@
 th,
 td {
   padding: 15px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }

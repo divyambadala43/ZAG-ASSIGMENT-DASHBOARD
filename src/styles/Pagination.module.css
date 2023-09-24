@@ -1,0 +1,33 @@
+.activePageButton {
+  display: inline-flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4.087px;
+  border: 1.022px solid #5932ea;
+  background: #5932ea;
+  color: #fff;
+  font-size: 12.26px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.123px;
+  margin-right: 5px;
+}
+
+.pageButton {
+  display: inline-flex;
+  padding: 6.13px 9.195px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4.087px;
+  border: 1.022px solid #eff0f6;
+  background: #f5f5f5;
+  color: #404b52;
+  font-size: 12.26px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.123px;
+  margin-right: 5px;
+}

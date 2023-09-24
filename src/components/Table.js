@@ -3,13 +3,14 @@ import data from "../data.json";
 import styles from "../styles/Table.module.css";
 import Sort from "./Sort";
 import Search from "./Search";
+import Pagination from "./Pagination";
 
 const Table = () => {
   const [sortOption, setSortOption] = useState("");
   const [tableData, setTableData] = useState(data);
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 2;
+  const itemsPerPage = 5;
 
   const handleSortChange = (event) => {
     const newSortOption = event.target.value;
@@ -86,16 +87,7 @@ const Table = () => {
           {Array(Math.ceil(tableData.length / itemsPerPage))
             .fill()
             .map((_, index) => (
-              <button
-                key={index}
-                className={
-                  currentPage === index + 1
-                    ? styles.activePageButton
-                    : styles.pageButton
-                }
-                onClick={() => handlePageChange(index + 1)}>
-                {index + 1}
-              </button>
+              <Pagination index={index} handlePageChange={handlePageChange} currentPage={currentPage} />
             ))}
         </div>
       )}
