@@ -14,7 +14,17 @@
 .statHeading {
   text-align: left;
   width: 100%;
-  margin-left: 70px;
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.statPercentage {
+  text-align: right;
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .statsContainer {

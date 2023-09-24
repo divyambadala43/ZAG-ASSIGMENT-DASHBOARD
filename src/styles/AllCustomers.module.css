@@ -22,3 +22,15 @@
   display: flex;
   justify-content: space-around;
 }
+
+.chart {
+  width: 120px;
+  height: 109px;
+}
+
+.chartTitle {
+  margin-top: 10px;
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: 600;
+}
