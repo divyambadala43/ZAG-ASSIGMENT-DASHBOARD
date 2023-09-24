@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: flex-end;
   margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 .searchInput {
@@ -24,9 +25,6 @@
   justify-content: center;
   align-items: center;
   margin-right: 20px;
-}
-
-.searchInput input {
   border: none;
   background: none;
   outline: none;
@@ -38,14 +36,12 @@
   width: 158.773px;
   height: 35px;
   display: flex;
-}
-
-.sortDropdown select {
   border-radius: 10.217px;
   background: #f9fbff;
   outline: none;
   border: none;
 }
+
 .pagination {
   display: flex;
   margin-top: 20px;
@@ -123,12 +119,24 @@
 table {
   margin: 0 auto;
 }
-th,
 td {
   padding: 15px;
+  color: #292d32;
+  font-size: 14.304px;
+  font-weight: 500;
+  letter-spacing: -0.143px;
+  border-bottom: 1px solid #eff0f6;
 }
 tbody {
   color: #292d32;
+  font-size: 14.304px;
+  font-weight: 500;
+  letter-spacing: -0.143px;
+  margin-top: 10px;
+}
+
+thead {
+  color: #b5b7c0;
   font-size: 14.304px;
   font-weight: 500;
   letter-spacing: -0.143px;

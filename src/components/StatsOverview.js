@@ -6,12 +6,15 @@ import data from "../data.json";
 const StatsOverview = () => {
   console.log(data);
   const totalCustomers = data.length;
+  console.log(totalCustomers);
   const activeCustomers = data.filter(
     (customer) => customer.status === "Active"
   ).length;
+  console.log(activeCustomers);
   const inactiveCustomers = data.filter(
     (customer) => customer.status === "Inactive"
   ).length;
+  console.log(inactiveCustomers);
 
   const activePercentage = (activeCustomers / totalCustomers) * 100;
   console.log(activePercentage);

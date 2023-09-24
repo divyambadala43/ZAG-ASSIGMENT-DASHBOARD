@@ -28,6 +28,14 @@ const PaginatedTable = ({ data }) => {
       {
         Header: "Status",
         accessor: "status",
+        Cell: ({ cell: { value } }) => (
+          <div
+            className={`${styles.status} ${
+              value === "Active" ? styles.active : styles.inActive
+            }`}>
+            {value}
+          </div>
+        ),
       },
     ],
     []
@@ -85,7 +93,7 @@ const PaginatedTable = ({ data }) => {
         <input
           className={styles.searchInput}
           type="text"
-          placeholder="Search"
+          placeholder={`Filter ${selectedFilter}`}
           onChange={(e) =>
             setFilter([{ id: selectedFilter, value: e.target.value }])
           }
@@ -102,10 +110,7 @@ const PaginatedTable = ({ data }) => {
         </select>
       </div>
 
-      <table
-        style={{ margin: "0 auto" }}
-        {...getTableProps()}
-        className="table">
+      <table {...getTableProps()} className="table">
         <thead>
           {headerGroups.map((headerGroup) => (
             <tr {...headerGroup.getHeaderGroupProps()}>
