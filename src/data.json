@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "customerName": "Jane Cooper",
+    "company": "Microsoft",
+    "phoneNumber": "(225) 555-0118",
+    "email": "jane@microsoft.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "customerName": "John Doe",
+    "company": "Apple Inc.",
+    "phoneNumber": "(408) 555-1234",
+    "email": "john@apple.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 3,
+    "customerName": "Alice Johnson",
+    "company": "Google LLC",
+    "phoneNumber": "(650) 555-5678",
+    "email": "alice@google.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 4,
+    "customerName": "Bob Smith",
+    "company": "Amazon.com, Inc.",
+    "phoneNumber": "(206) 555-9876",
+    "email": "bob@amazon.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 5,
+    "customerName": "Ella Davis",
+    "company": "Facebook, Inc.",
+    "phoneNumber": "(650) 555-4321",
+    "email": "ella@facebook.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 6,
+    "customerName": "William Johnson",
+    "company": "Tesla, Inc.",
+    "phoneNumber": "(408) 555-8765",
+    "email": "william@tesla.com",
+    "country": "United States",
+    "status": "Inactive"
+  },
+  {
+    "id": 7,
+    "customerName": "Grace Lee",
+    "company": "Netflix, Inc.",
+    "phoneNumber": "(408) 555-9876",
+    "email": "grace@netflix.com",
+    "country": "United States",
+    "status": "Active"
+  },
+  {
+    "id": 8,
+    "customerName": "Henry Wilson",
+    "company": "SpaceX",
+    "phoneNumber": "(310) 555-7890",
+    "email": "henry@spacex.com",
+    "country": "United States",
+    "status": "Inactive"
+  }
+]
