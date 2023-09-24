@@ -1,4 +1,5 @@
 import AllCustomers from "./components/AllCustomers";
+import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import StatsOverview from "./components/StatsOverview";
 import Table from "./components/Table";
@@ -9,6 +10,7 @@ function App() {
     <div className={styles.container}>
       <Sidebar />
       <div className={styles.rightContainer}>
+        <Header />
         <div className={styles.chartContainer}>
           <AllCustomers />
           <StatsOverview />
